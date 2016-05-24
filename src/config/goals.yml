@@ -1,0 +1,30 @@
+vendor:
+    name:       ahnames
+    title:      AHnames
+    github:     https://github.com/ahnames
+    homepage:   https://ahnames.com/
+    email:      support@ahnames.com
+    license:    proprietary
+    authors:
+        hiqsol:
+            name:       Andrii Vasyliev
+            email:      sol@hiqdev.com
+            github:     https://github.com/hiqsol
+            homepage:   https://hipanel.com/
+
+php-cs-fixer:
+    header: |
+        {{ config.package.title }}
+
+        @link      {{ config.package.homepage }}
+        @package   {{ config.package.name }}
+        @license   {{ config.package.license }}
+        @copyright Copyright (c) {{ config.package.years }}, {{ config.vendor.titleAndHomepage }}
+    fixers:
+        'header_comment':   'Add, replace or remove header comment.'
+    finder:
+        notPath:
+            - vendor
+            - runtime
+            - web/assets
+
