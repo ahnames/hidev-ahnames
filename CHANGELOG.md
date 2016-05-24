@@ -1,8 +1,9 @@
 ahnames/hidev-ahnames changelog
 -------------------------------
 
-## Development started
+## 0.0.1 2016-05-24
 
+- Added basics
 
-##  2016-05-24
+## Development started 2016-05-24
 
