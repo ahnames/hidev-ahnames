@@ -16,10 +16,10 @@ This plugin provides [AHnames](https://github.com/ahnames) vendor configuration 
 
 Provides AHnames information and settings:
 
-* general data: vendor name and company title
-* contact data: email, forum, github page
-* authors data: names, emails, github and home pages
-* default license: proprietary
+- general data: vendor name and company title
+- contact data: email, forum, github page
+- authors data: names, emails, github and home pages
+- default license: proprietary
 
 See [src/config/goals.yml](src/config/goals.yml).
 
