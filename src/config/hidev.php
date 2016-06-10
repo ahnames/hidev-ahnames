@@ -15,9 +15,6 @@ return [
             'include' => [
                 '@ahnames/hidev/vendor/config/goals.yml',
             ],
-            'views' => [
-                '@ahnames/hidev/vendor/views',
-            ],
         ],
     ],
 ];
