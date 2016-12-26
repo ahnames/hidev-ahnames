@@ -23,9 +23,6 @@
             "homepage": "https://hipanel.com/"
         }
     ],
-    "require": {
-        "hiqdev/composer-config-plugin": "<2.0"
-    },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
         "hiqdev/hidev": "dev-master"
