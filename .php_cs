@@ -3,22 +3,26 @@
 $header = <<<EOF
 AHnames vendor configuration for HiDev
 
-@link      https://github.com/ahnames/hidev-vendor
-@package   hidev-vendor
+@link      https://github.com/ahnames/hidev-ahnames
+@package   hidev-ahnames
 @license   proprietary
-@copyright Copyright (c) 2015-2016, AHnames (https://ahnames.com/)
+@copyright Copyright (c) 2016, AHnames (https://ahnames.com/)
 EOF;
 
-Symfony\CS\Fixer\Contrib\HeaderCommentFixer::setHeader($header);
-
-return Symfony\CS\Config\Config::create()
+return PhpCsFixer\Config::create()
     ->setUsingCache(true)
-    ->level(Symfony\CS\FixerInterface::PSR2_LEVEL)
-    ->fixers([
-        'header_comment',                        /// Add, replace or remove header comment.
+    ->setRiskyAllowed(true)
+    ->setRules([
+        '@PSR2' => true,
+        'header_comment'                             =>  [
+            'header'        => $header,
+            'separate'      => 'bottom',
+            'location'      => 'after_declare_strict',
+            'commentType'   => 'PHPDoc',
+        ],
     ])
-    ->finder(
-        Symfony\CS\Finder\DefaultFinder::create()
+    ->setFinder(
+        PhpCsFixer\Finder::create()
             ->in(__DIR__)
             ->notPath('vendor')
             ->notPath('runtime')
@@ -26,5 +30,5 @@ return Symfony\CS\Config\Config::create()
             ->notPath('vendor')
             ->notPath('runtime')
             ->notPath('web/assets')
-    )
+        )
 ;

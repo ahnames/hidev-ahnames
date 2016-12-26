@@ -1,13 +1,13 @@
 <?php
-
-/*
+/**
  * AHnames vendor configuration for HiDev
  *
- * @link      https://github.com/ahnames/hidev-vendor
- * @package   hidev-vendor
+ * @link      https://github.com/ahnames/hidev-ahnames
+ * @package   hidev-ahnames
  * @license   proprietary
- * @copyright Copyright (c) 2015-2016, AHnames (https://ahnames.com/)
+ * @copyright Copyright (c) 2016, AHnames (https://ahnames.com/)
  */
+
 
 error_reporting(E_ALL);
 
