@@ -6,13 +6,13 @@ AHnames vendor configuration for HiDev
 @link      https://github.com/ahnames/hidev-ahnames
 @package   hidev-ahnames
 @license   proprietary
-@copyright Copyright (c) 2016, AHnames (https://ahnames.com/)
+@copyright Copyright (c) 2016-2017, AHnames (https://ahnames.com/)
 EOF;
 
 return PhpCsFixer\Config::create()
     ->setUsingCache(true)
     ->setRiskyAllowed(true)
-    ->setRules([
+    ->setRules(array(
         '@PSR2' => true,
         'header_comment'                             =>  [
             'header'        => $header,
@@ -20,7 +20,7 @@ return PhpCsFixer\Config::create()
             'location'      => 'after_declare_strict',
             'commentType'   => 'PHPDoc',
         ],
-    ])
+    ))
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in(__DIR__)

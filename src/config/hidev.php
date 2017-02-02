@@ -5,7 +5,7 @@
  * @link      https://github.com/ahnames/hidev-ahnames
  * @package   hidev-ahnames
  * @license   proprietary
- * @copyright Copyright (c) 2016, AHnames (https://ahnames.com/)
+ * @copyright Copyright (c) 2016-2017, AHnames (https://ahnames.com/)
  */
 
 

@@ -8,7 +8,6 @@ AHnames HiDev Config
 [![Build Status](https://img.shields.io/travis/ahnames/hidev-ahnames.svg)](https://travis-ci.org/ahnames/hidev-ahnames)
 [![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/ahnames/hidev-ahnames.svg)](https://scrutinizer-ci.com/g/ahnames/hidev-ahnames/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/ahnames/hidev-ahnames.svg)](https://scrutinizer-ci.com/g/ahnames/hidev-ahnames/)
-[![Dependency Status](https://www.versioneye.com/php/ahnames:hidev-ahnames/dev-master/badge.svg)](https://www.versioneye.com/php/ahnames:hidev-ahnames/dev-master)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
@@ -46,4 +45,4 @@ to the require section of your composer.json.
 This project is released under the terms of the proprietary [license](LICENSE).
 Read more [here](https://en.wikipedia.org/wiki/Proprietary_software).
 
-Copyright © 2016, AHnames (https://ahnames.com/)
+Copyright © 2016-2017, AHnames (https://ahnames.com/)
