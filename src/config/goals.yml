@@ -11,6 +11,11 @@ vendor:
             email:      sol@hiqdev.com
             github:     https://github.com/hiqsol
             homepage:   https://hipanel.com/
+        SilverFire:
+            name:       Dmitry Naumenko
+            email:      d.naumenko.a@gmail.com
+            github:     https://github.com/SilverFire
+            homepage:   http://silverfire.me/
 
 php-cs-fixer:
     header: |
