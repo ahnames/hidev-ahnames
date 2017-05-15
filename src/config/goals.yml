@@ -17,7 +17,7 @@ vendor:
             github:     https://github.com/SilverFire
             homepage:   http://silverfire.me/
 
-php-cs-fixer:
+.php_cs:
     header: |
         {{ config.package.title }}
 
@@ -33,6 +33,11 @@ php-cs-fixer:
                 'location'      => 'after_declare_strict',
                 'commentType'   => 'PHPDoc',
             ]
+        phpdoc_no_alias_tag:                    |       # No alias PHPDoc tags should be used
+            ['replacements' => ['type' => 'var']]
+        phpdoc_separation:                      false   # Annotations of a different type are separated by a single blank line
+        concat_space:                           |       # Concatenation should be spaced according configuration
+            ['spacing' => 'one']
     finder:
         notPath:
             - vendor

@@ -1,6 +1,6 @@
 <?php
 /**
- * AHnames vendor configuration for HiDev
+ * HiDev plugin for AHnames vendor configuration
  *
  * @link      https://github.com/ahnames/hidev-ahnames
  * @package   hidev-ahnames
@@ -11,10 +11,8 @@
 
 return [
     'components' => [
-        'config' => [
-            'include' => [
-                '@ahnames/hidev/vendor/config/goals.yml',
-            ],
+        'include' => [
+            __DIR__ . '/goals.yml',
         ],
     ],
 ];

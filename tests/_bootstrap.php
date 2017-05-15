@@ -1,6 +1,6 @@
 <?php
 /**
- * AHnames vendor configuration for HiDev
+ * HiDev plugin for AHnames vendor configuration
  *
  * @link      https://github.com/ahnames/hidev-ahnames
  * @package   hidev-ahnames
