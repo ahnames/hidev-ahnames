@@ -1,7 +1,7 @@
 {
     "name": "ahnames/hidev-ahnames",
     "type": "yii2-extension",
-    "description": "AHnames vendor configuration for HiDev",
+    "description": "HiDev plugin for AHnames vendor configuration",
     "keywords": [
         "ahnames",
         "hidev",
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ahnames\\hidev\\vendor\\": "src"
+            "ahnames\\hidev\\ahnames\\": "src"
         }
     },
     "extra": {

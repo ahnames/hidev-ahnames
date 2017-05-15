@@ -1,14 +1,14 @@
 package:
     type:           yii2-extension
     name:           hidev-ahnames
-    title:          AHnames vendor configuration for HiDev
-    headline:       AHnames HiDev Config
+    title:          HiDev plugin for AHnames vendor configuration
+    headline:       HiDev AHnames
     keywords:       ahnames, hidev, vendor, config
     namespace:      ahnames\hidev\vendor
     description:    |
-        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+        [HiDev] is the automation tool mixed with code generator for easier continuous development
 
-        This plugin provides [AHnames](https://github.com/ahnames) vendor configuration for HiDev.
+        This plugin provides [AHnames] vendor configuration for HiDev.
 
         Provides AHnames information and settings:
 
@@ -17,7 +17,11 @@ package:
         - authors data: names, emails, github and home pages
         - default license: proprietary
 
-        See [src/config/goals.yml](src/config/goals.yml).
+        See [src/config/goals.yml].
+
+        [HiDev]:                https://github.com/hiqdev/hidev
+        [AHnames]:              https://github.com/ahnames
+        [src/config/goals.yml]: src/config/goals.yml
 
 include:
     - src/config/goals.yml

@@ -1,7 +1,6 @@
-AHnames HiDev Config
-====================
+# HiDev AHnames
 
-**AHnames vendor configuration for HiDev**
+**HiDev plugin for AHnames vendor configuration**
 
 [![Latest Stable Version](https://poser.pugx.org/ahnames/hidev-ahnames/v/stable)](https://packagist.org/packages/ahnames/hidev-ahnames)
 [![Total Downloads](https://poser.pugx.org/ahnames/hidev-ahnames/downloads)](https://packagist.org/packages/ahnames/hidev-ahnames)
@@ -9,9 +8,9 @@ AHnames HiDev Config
 [![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/ahnames/hidev-ahnames.svg)](https://scrutinizer-ci.com/g/ahnames/hidev-ahnames/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/ahnames/hidev-ahnames.svg)](https://scrutinizer-ci.com/g/ahnames/hidev-ahnames/)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development
 
-This plugin provides [AHnames](https://github.com/ahnames) vendor configuration for HiDev.
+This plugin provides [AHnames] vendor configuration for HiDev.
 
 Provides AHnames information and settings:
 
@@ -20,7 +19,11 @@ Provides AHnames information and settings:
 - authors data: names, emails, github and home pages
 - default license: proprietary
 
-See [src/config/goals.yml](src/config/goals.yml).
+See [src/config/goals.yml].
+
+[HiDev]:                https://github.com/hiqdev/hidev
+[AHnames]:              https://github.com/ahnames
+[src/config/goals.yml]: src/config/goals.yml
 
 ## Installation
 
