@@ -1,5 +1,11 @@
-ahnames/hidev-ahnames commits history
--------------------------------------
+# ahnames/hidev-ahnames
+
+## [0.2.0] - 2017-05-15
+
+- Fixed config for hidev 0.6
+    - [3adb22c] 2017-05-15 csfixed [@hiqsol]
+    - [d2f25da] 2017-05-15 csfixed [@hiqsol]
+    - [c0ef466] 2017-05-15 renamed `hidev.yml` [@hiqsol]
 
 ## [0.1.0] - 2017-02-02
 
@@ -28,6 +34,10 @@ ahnames/hidev-ahnames commits history
 [639980f]: https://github.com/ahnames/hidev-ahnames/commit/639980f
 [2cb035b]: https://github.com/ahnames/hidev-ahnames/commit/2cb035b
 [b87e42b]: https://github.com/ahnames/hidev-ahnames/commit/b87e42b
-[Under development]: https://github.com/ahnames/hidev-ahnames/compare/0.0.1...HEAD
+[Under development]: https://github.com/ahnames/hidev-ahnames/compare/0.1.0...HEAD
 [0.0.1]: https://github.com/ahnames/hidev-ahnames/releases/tag/0.0.1
 [0.1.0]: https://github.com/ahnames/hidev-ahnames/compare/0.0.1...0.1.0
+[3adb22c]: https://github.com/ahnames/hidev-ahnames/commit/3adb22c
+[d2f25da]: https://github.com/ahnames/hidev-ahnames/commit/d2f25da
+[c0ef466]: https://github.com/ahnames/hidev-ahnames/commit/c0ef466
+[0.2.0]: https://github.com/ahnames/hidev-ahnames/compare/0.1.0...0.2.0
