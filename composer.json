@@ -39,7 +39,7 @@
     },
     "extra": {
         "config-plugin": {
-            "hidev": "src/config/hidev.php"
+            "hidev": "config/hidev.php"
         }
     },
     "repositories": [
