@@ -44,3 +44,7 @@ vendor:
             - runtime
             - web/assets
 
+default:
+    before:
+        - README.md
+

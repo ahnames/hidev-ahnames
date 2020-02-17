@@ -28,6 +28,10 @@
             "homepage": "http://silverfire.me/"
         }
     ],
+    "require": {
+        "hiqdev/hidev-readme": "*@dev",
+        "hiqdev/hidev-php-cs-fixer": "*@dev"
+    },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
         "hiqdev/hidev": "dev-master"
